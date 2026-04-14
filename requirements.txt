@@ -1,0 +1,7 @@
+# Retail Promotions Bot — Python Dependencies
+# Install all with: pip install -r requirements.txt
+
+groq>=0.9.0          # Groq Python client (runs Llama via cloud API)
+pypdf>=4.0.0         # Reads PDF files and extracts text
+faiss-cpu>=1.7.4     # Facebook AI Similarity Search (vector database)
+numpy>=1.24.0        # Number arrays (used by FAISS)
